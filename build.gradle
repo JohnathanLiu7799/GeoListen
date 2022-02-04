@@ -8,3 +8,7 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+//dependencies {
+//    implementation files('libs/spotify-app-remote-release-0.7.2.aar')
+//}
