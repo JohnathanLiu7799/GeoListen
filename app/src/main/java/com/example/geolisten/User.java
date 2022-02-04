@@ -13,7 +13,7 @@ public class User {
     private String password;
 
     private Context context;
-    private SpotifyAgent agent;
+//    private SpotifyAgent agent;
 
 
     public User(String spotifyId, String userName, String password) {
@@ -24,8 +24,8 @@ public class User {
 
 
         // placeholder until more knowledge about spotify api
-        this.agent = new SpotifyAgent();
-        this.context = this.agent.retrieveContext(spotifyId);
+//        this.agent = new SpotifyAgent();
+//        this.context = this.agent.retrieveContext(spotifyId);
     }
 
     public User(String spotifyId, Mode mode, String userName, String password) {
@@ -35,8 +35,8 @@ public class User {
         this.password = password;
 
         // placeholder until more knowledge about spotify api
-        this.agent = new SpotifyAgent();
-        this.context = this.agent.retrieveContext(spotifyId);
+//        this.agent = new SpotifyAgent();
+//        this.context = this.agent.retrieveContext(spotifyId);
     }
 
     public String getSpotifyId() {
